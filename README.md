@@ -1,1 +1,3 @@
-This is a simple amazon layout made using html and css. Will add more functionalities using javascript.
+Hey,<br>
+This is a simple amazon layout made using html and css. <br>
+Will add more functionalities using javascript.
