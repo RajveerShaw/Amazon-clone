@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: #cccccc;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    padding-top: 3px;
+}
+
+#logo{
+    height: 50px;
+    width: 113px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    
+}
+
+.ab{
+    border: 1px solid transparent;
+    border-radius: 5%;
+}
+
+.ab:hover{
+    border: 1px solid white;
+}
+
+#deliverto{
+    margin-left: 10px;
+    margin-right: 20px;
+    position: relative;
+    width: 75px;
+    height: 40px;
+    padding: 5px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+#dd{
+    position: relative;
+    left: 13px;
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+
+#dd2{
+    margin-left: 3px;
+}
+
+#searchbar{
+    display: flex;
+    width: 1050px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 5%;
+}
+
+#searchic{
+    background-color: #FBE7C6;
+    height: 40px;
+    width: 45px;
+    color: black;
+    border: none;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sel{
+    border: 0px solid  transparent;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+    width: 50px;
+    color: black;
+    text-align: center;
+    background-color: gainsboro
+}
+
+#sear{
+    height: 38px;
+    border: none;
+    width: 100%;
+}
+
+#searchic:hover{
+    background-color: orange;
+}
+
+#en{
+    background-image: url(american_flag.webp);
+    background-size: cover;
+    width: 20px;
+    height: 15px;
+}
+
+#box4{
+    width: 55px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 10px;
+    margin: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#b4sel{
+    width: 33;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+#box5{
+    height: 50px;
+    margin-right: 10px;
+}
+
+#b5sel{
+    height: 15px;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-weight: 900;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+#b5p{
+    font-size: 13px;
+    padding-left: 8px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#box6{
+    height: 50px;
+    margin-right: 10px;
+}
+
+#b6p2{
+    color: white;
+    border: none;
+    font-weight: 900;
+    padding-left: 5px;
+    padding-right: 3px;
+    font-size: 12px;
+}
+
+#box7{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 2px;
+    width: 60px;
+}
+
+#b7p{
+        color: white;
+        border: none;
+        font-weight: 900;
+        padding-right: 3px;
+        font-size: 12px;
+        padding-top: 10px;
+}
+
+.navbar2{
+    background-color: #232F3E;
+    height: 39px;
+    display: flex;
+}
+
+.cd{
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#all{
+    margin-left: 10px;
+}
+
+#sdi{
+    position: relative;
+    left: 970px;
+}
+
+#box7 i{
+    font-size: 25px;
+}
+
+#bi{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 1500px;
+    left: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#bi000{
+    color: #007185
+}
+
+#bi0{
+    background-color: white;
+    width: 1460px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+}
+
+#bi00{
+    position: relative;
+    top: 10px;
+}
+
+#boxes{
+    height: 900px;
+    width: 1480px;
+    position: absolute;
+    left: 107px;
+    top: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bii{
+    width: 336px;
+    height: 420px;
+    background-color: white;
+    position: relative;
+    margin-left: 28px;
+}
+
+#bip{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 900px;
+}
+
+#bi1 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bi2 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bi3 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bi4 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bippp{
+    color: blue;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    text-decoration: none;
+}
+
+#bi5 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.bii2{
+        width: 336px;
+        height: 420px;
+        background-color: white;
+        position: relative;
+        margin-top: 30px;
+        margin-left: 28px;
+}
+
+#bi6 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bi7 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bi8 #bipp{
+    width: 300px;
+    height: 300px;
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#bippp:hover{
+    text-decoration: underline;
+    color: orange;
+
+}
+
+#bi000:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+#footnav1{
+    top: 700px;
+    height: 49px;
+    background-color: #37475a;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#top{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#fn2{
+    height: 250px;
+    width: 100%;
+    background-color: #222f3d;
+    position: relative;
+    top: 700px;
+    color: white;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul p{
+    font-weight: 700;
+}
+
+#fn3{
+    background-color: #222f3d;
+    border-top: 0.1px solid #cccccc;
+    height: 125px;
+    width: 100%;
+    position: relative;
+    top: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo1{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+#sel2{
+    background-color: #222f3d;
+    color: #cccccc;
+    border-color: transparent;
+}
+
+#globe{
+    border: 0.5px solid #cccccc;
+    padding: 7px 3px 7px 5px;
+    margin-left: 80px;
+    border-radius: 4px;
+}
+
+#globe i{
+    color: #cccccc;
+}
+
+#dollar{
+    display: flex;
+    margin-left: 15px;
+    color: #cccccc;
+    border: 0.5px solid #cccccc;
+    padding: 9px 3px 7px 5px;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+#dollar p{
+    margin-left: 2px;
+}
+
+#US{
+    display: flex;
+    color: #cccccc;
+    margin-left: 10px;
+    border: 0.5px solid #cccccc;
+    padding: 7px 6px 7px;
+    border-radius: 4px;    
+}
+
+#US div{
+    margin-left: 6px;
+}
+
+#fn4{
+    background-color: #131A22;
+    height: 75px;
+    width: 100%;
+    position: relative;
+    top: 700px;
+    text-align: center;
+}
+
+#fn4 pre{
+    color: #cccccc;
+    top: 20px;
+    position: relative;
+}
