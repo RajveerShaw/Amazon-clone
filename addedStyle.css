@@ -1,0 +1,107 @@
+#added{
+    display: none;
+}
+
+#added1{
+    display: flex;
+}
+
+#added2{
+    width: 1160px;
+    height: 188px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    line-height: 27px;
+}
+
+#added img{
+    height: 100px;
+    width: 100px;
+}
+
+#added2p1 b{
+    font-size: 20px;
+}
+
+#added2p2{
+    display: flex;
+}
+
+#added2p2_1{
+    font-weight: 300;
+}
+
+#added3{
+    width: 310px;
+    height: 188px;
+    background-color: white;
+    position: relative;
+    left: 53px;
+    top: 20px;
+    padding-left: 25px;
+}
+
+#cartsub{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+
+#cartsub2{
+    position: relative;
+    top: 30px;
+    width: 280px;
+    height: 29px;
+    border-radius: 6px;
+    border: 0px solid transparent;
+    background-color: #ffd051;
+    filter: contrast(1);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#cartsub2:hover{
+    background-color: #fcba03;
+}
+
+#cartsub3{
+    position: relative;
+    top: 45px;
+    width: 280px;
+    height: 29px;
+    border: 0.5px solid #cccccc;
+    background-color: white;
+    filter: contrast(1);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#cartsub3:hover{
+    background-color: rgb(246, 246, 246);
+}
+
+#cartsub4{
+    position: relative;
+    top: 58px;
+    width: 275px;
+    height: 29px;
+    font-size: 14px;
+    left: 5px;
+}
+
+#cartsub4 a{
+    text-decoration: none;
+    color: #0066c0;
+}
+
+#cartsub4 a:hover{
+    text-decoration: underline;
+    color: orange;
+}

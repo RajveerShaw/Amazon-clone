@@ -1,0 +1,267 @@
+#cart{
+    display: none;
+    height: 1180px;
+}
+
+#cbo{
+    display: flex;
+}
+
+#cbox{
+    height: 500px;
+    width: 1180px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+#cbox1{
+    height: 300px;
+    width: 1180px;
+    background-color: white;
+    display: flex;
+}
+
+#cimage{
+    width: 364.2px;
+    height: 208.95px;
+    background-image: url(cart1.svg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 40px;
+}
+
+#cshow{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#cshowp1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#cshowp2 a{
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 25px;
+    color: #0066c0;
+}
+
+#cshowp2 a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+#cbuttons{
+    margin-top: 17px;
+}
+
+#cbuttons1{
+    border-radius: 6px;
+    border: 0px solid transparent;
+    background-color: #ffd051;
+    filter: contrast(1);
+    cursor: pointer;
+    height: 29px;
+    width: 187px;
+    font-size: 16px;
+}
+
+#cbuttons1:hover{
+    background-color: #fcba03;
+}
+
+#cbuttons2{
+    width: 110.78px;
+    height: 29px;
+    border: 0.1px solid #bbbaba;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+}
+
+#cbuttons2:hover{
+    background-color: rgb(246, 246, 246);
+}
+
+#cbox2{
+    width: 1180px;
+    height: 74px;
+    background-color: white;
+    position: relative;
+    top: 30px;
+}
+
+#cbox3{
+    font-size: 12px;
+    position: relative;
+    top: 50px;
+    width: 1180px;
+    line-height: 17px;
+}
+
+#cbox3 a{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+#cbox3 a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+#cbox4{
+    width: 298px;
+    height: 1335.63px;
+    background-color: white;
+    right: 85px;
+    position: relative;
+    border-radius: 7px;
+    margin-left: 220px;
+    top: 8px;
+}
+
+#cbox4 p{
+    padding: 14px 18px;
+    font-size: 18px;
+}
+
+#a1 sup{
+    font-size: 8px;
+}
+
+#cbox4a{
+    width: 262px;
+    height: 130.45px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    margin-top: 20px;
+}
+
+#cbox4a div p{
+    padding: 0px;
+    width: 154px;
+    height: 18px;
+    overflow: hidden;
+}
+
+#cbox4a img{
+    height: 100px;
+    width: 100px;
+}
+
+#a{
+    width: 154px;
+    height: 130.45px;
+    margin-left: 8px;
+}
+
+#a1 p{
+    font-size: 14px;
+}
+
+#a2 p{
+    font-size: 13px;
+}
+
+.checked {
+    color: orange;
+}
+
+#a3 p{
+    color: rgb(255, 64, 64);
+    font-size: 14px;
+}
+
+#a button{
+    width: 70.41px;
+    height: 20px;
+    font-size: 10.5px;
+    border-radius: 6px;
+    border: 0px solid transparent;
+    background-color: #ffd051;
+    filter: contrast(1);
+    cursor: pointer;
+}
+
+#a button:hover{
+    background-color: #fcba03;
+}
+
+#cboo{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 23px;
+}
+
+#cboo pre{
+    font-size: 14px;
+    position: relative;
+    left: 3px;
+}
+
+#cboo button{
+    width: 230px;
+    height: 28px;
+    border-radius: 6px;
+    border: 0px solid transparent;
+    background-color: #ffd051;
+    filter: contrast(1);
+    cursor: pointer;
+}
+
+#cboo button:hover{
+    background-color: #fcba03;
+}
+
+#cboo p{
+    font-size: 11px;
+    position: relative;
+    left: 51px;
+}
+
+#cboo p a{
+    color: #0066c0;
+    text-decoration: none;
+}
+
+#cboo p a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+#cart hr{
+    position: relative;
+    top: 41px;
+    color: #cccccc;
+    opacity: 0.2;
+}
+
+#cboo1{
+    background-color: white;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    top: 40px;
+}
+
+#spare{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}

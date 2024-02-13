@@ -1,0 +1,185 @@
+#checkoutinner{
+    width: 1180px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    display: none;
+}
+
+#sc b{
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    font-size: 27px;
+    left: 22px;
+}
+
+#checkoutinner hr{
+    opacity: 0.2;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    width: 95%;
+}
+
+#checkoutinner img{
+    position: relative;
+    left: 30px;
+    height: 180px;
+    width: 180px;
+    top: 14px;
+}
+
+.chk1{
+    display: flex;
+    position: relative;
+    top: 64px;
+    line-height: 27px;
+    font-weight: 900;
+    background-color: white;
+    height: 205px;
+    border-bottom: 0.5px solid black;
+    margin-top: 5px;
+}
+
+#ci1{
+    display: none;
+}
+
+#ci2{
+    display: none;
+}
+
+#ci3{
+    display: none;
+}
+
+#ci4{
+    display: none;
+}
+
+#ci5{
+    display: none;
+}
+
+#ci6{
+    display: none;
+}
+
+#ci7{
+    display: none;
+}
+
+#ci8{
+    display: none;
+}
+
+#chk11{
+    position: relative;
+    top: 25px;
+}
+
+#chk111{
+    position: relative;
+    left: 40px;
+}
+
+#chk112{
+    position: relative;
+    left: 40px;
+}
+
+#chk113{
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+}
+
+#chk114{
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+}
+
+#chk115{
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+}
+
+#chk116{
+    font-size: 13px;
+    position: absolute;
+    left: 925px;
+    top: 0px;
+}
+
+#chk117{
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+    color: #0066c0;
+}
+
+#chk118{
+    font-size: 13px;
+    position: absolute;
+    left: 925px;
+    display: flex;
+    top: 20px;
+}
+
+#chk117:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#price{
+    position: relative;
+    left: 1106px;
+    top: 40px;
+    font-weight: 100;
+    font-size: 15px;
+    width: 34px;
+}
+
+#subtotal{
+    height: 145px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    left: 135px;
+    border-radius: 7px;
+    margin-top: 20px;
+    line-height: 40px;
+    display: none;
+}
+
+#sbt1{
+    display: flex;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-size: 20px;
+}
+
+#subtotal button{
+    height: 29px;
+    width: 258px;
+    border-radius: 6px;
+    border: 0px solid transparent;
+    background-color: #ffd051;
+    filter: contrast(1);
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+
+#subtotal button:hover{
+    background-color: #fcba03;
+}
