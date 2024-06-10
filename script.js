@@ -256,8 +256,11 @@ for(cart of addtoCart){
             let imag = im[i].childNodes;
             let imag2 = imag[3].childNodes;
             let imag3 = imag2[5].childNodes;
-            if(e[1].src.slice(43)==imag[1].src.slice(43)){
+            if(e[1].src.slice(22)==imag[1].src.slice(22)){ // In future if error occurs change the slice value appropriately
                 document.querySelector(`#${im[i].getAttribute("id")}`).style.display = "flex";
+                // console.log(document.querySelector(`#${im[i].getAttribute("id")}`));
+                // console.log(e[1].src.slice(22));
+                // console.log(imag[1].src.slice(22));
                 imag3[1].innerText = Number(imag3[1].innerText)+1;
                 imag2[3].innerText = cartSub.innerText;
                 sum = Number(sum) + Number(cartSub.innerText.slice(1));
